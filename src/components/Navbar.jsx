@@ -8,7 +8,7 @@ const Navbar = () => {
     <div
       className="navbar"
       id={expandNav ? "open" : "close"}
-      onClick={() => setExpandNav(!expandNav)}
+      // onClick={() => setExpandNav(!expandNav)}
     >
       <div className="toggleButton">
         <button onClick={() => setExpandNav(!expandNav)}>

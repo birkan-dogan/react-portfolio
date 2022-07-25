@@ -23,8 +23,9 @@ const Home = () => {
           <li className="item">
             <h2>SOFT SKILLS</h2>
             <span>
-              HTML5 | CSS3 | JavaScript | React.js |Redux | Bootstrap | Python |
-              Linux | SQLite | Git | GitHub | APIs | SDLC
+              Analytical Thinking | Problem-Solving Abilities | Self-Motivated |
+              Strong Communication | Time Management | Continuous Learning |
+              Collaboration & Teamwork | Curiosity | Emotional Intelligence
             </span>
           </li>
         </ol>

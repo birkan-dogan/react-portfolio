@@ -9,8 +9,8 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 function App() {
   return (
     <div className="App">
-      <div class="scrollbar" id="style-11">
-        <div class="force-overflow"></div>
+      <div className="scrollbar" id="style-11">
+        <div className="force-overflow"></div>
       </div>
       <BrowserRouter>
         <Navbar />

@@ -31,25 +31,38 @@
   color: white;
 }
 
-.skills {
+.skills1 {
   font-size: 35px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
-.skills h1 {
-  color: #3e497a;
+.skills1 h2 {
+  color: crimson;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.skills .list {
-  list-style: none;
-  width: 60%;
+.div-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  flex-wrap: wrap;
 }
-
-.list span {
-  font-size: 20px;
+.div-skills .skills {
+  margin: 4rem;
+  transform: scale(2.5);
+}
+.div-skills .skills:hover {
+  color: #33b5e5;
+  cursor: pointer;
+}
+.div-skills .name {
+  font-size: 0.5rem;
 }
 @media (max-width: 850px) {
   .about h3 {

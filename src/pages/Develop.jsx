@@ -12,13 +12,9 @@ import img1 from "../assets/images/41308287040223.png";
 import img2 from "../assets/images/22310236695384.png";
 import img3 from "../assets/images/image (1).png";
 import img4 from "../assets/images/image (2).png";
+import "../styles/Develop.css";
 
 const Develop = () => {
-  const imgStyle = {
-    width: "450px",
-    borderRadius: "1rem",
-    margin: "1rem",
-  };
   return (
     <div className="certificate">
       <VerticalTimeline lineColor="#3e497a">
@@ -28,7 +24,7 @@ const Develop = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<AiFillHtml5 />}
         >
-          <img src={img1} alt="" style={imgStyle} />
+          <img src={img1} alt="" />
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -36,7 +32,7 @@ const Develop = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<IoLogoJavascript />}
         >
-          <img src={img2} alt="" style={imgStyle} />
+          <img src={img2} alt="" />
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -44,7 +40,7 @@ const Develop = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<FaGit />}
         >
-          <img src={img3} alt="" style={imgStyle} />
+          <img src={img3} alt="" />
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -52,7 +48,7 @@ const Develop = () => {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<MdEngineering />}
         >
-          <img src={img4} alt="" style={imgStyle} />
+          <img src={img4} alt="" />
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

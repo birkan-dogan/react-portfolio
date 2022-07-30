@@ -1,0 +1,10 @@
+img {
+  width: 450px;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+@media (max-width: 577px) {
+  img {
+    width: 200px;
+  }
+}

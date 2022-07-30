@@ -1,12 +1,10 @@
 .home {
-  width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #3e497a;
 }
 
 .about {
-  width: 100%;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
@@ -25,7 +23,6 @@
 }
 
 .about .prompt {
-  width: 40%;
   font-size: 30px;
 }
 .prompt svg {
@@ -36,7 +33,6 @@
 
 .skills {
   font-size: 35px;
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;

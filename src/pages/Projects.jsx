@@ -7,7 +7,6 @@ const Projects = () => {
   let mappingList = projectlist.slice(0, 5);
   const handleLoad = () => {
     setLoad(load + 1);
-    console.log(load);
   };
   return (
     <div className="projects">

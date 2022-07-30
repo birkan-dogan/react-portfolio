@@ -1,6 +1,5 @@
 .project {
-  width: 100%;
-  height: calc(100vh - 100px);
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,21 +7,44 @@
 }
 
 .project h1 {
-  margin-top: 50px;
-  color: #3e497a;
+  /* margin: 50px; */
+  /* margin-top: 200px; */
+  color: purple;
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 600px;
   border-radius: 10px;
+  transition: all 0.7s;
+  margin: 1rem;
 }
-
+.project img:hover {
+  transform: scale(1.2);
+}
 .project p {
-  font-size: 40px;
+  font-size: 35px;
   color: #3e497a;
+  padding: 2rem;
 }
 
 .project svg {
   font-size: 60px;
   color: #3e497a;
+  transition: all 0.5s;
+}
+.project svg:hover {
+  color: red;
+}
+.back {
+  margin-top: 3rem;
+  border: white;
+  cursor: pointer;
+  background-color: grey;
+  color: #f3f3f3;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+.back:hover {
+  transform: scale(0.98);
 }

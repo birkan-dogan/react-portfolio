@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h3>Hi, My Name is Birkan</h3>
+        <h3 className="mb-5">Hi, My Name is Birkan</h3>
         <div className="prompt">
           <p>A Front-end Developer with a passion for learning and creating</p>
         </div>

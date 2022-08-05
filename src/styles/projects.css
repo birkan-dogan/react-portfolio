@@ -51,11 +51,12 @@
   font-size: 25px;
 }
 .btn {
-  border: none;
+  border: none !important;
   border-radius: 1rem;
   box-shadow: 1px 1px 1px 1px white;
   padding: 0.7rem;
   color: #3e497a;
+  background-color: plum !important;
   font-weight: 800;
   cursor: pointer;
   transition: all 0.5s;

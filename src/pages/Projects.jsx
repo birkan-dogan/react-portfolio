@@ -17,7 +17,7 @@ const Projects = () => {
               return <ProjectItem id={index} item={item} />;
             })
           : load > 1
-          ? projectlist.slice(0, projectlist.length - 1).map((item, index) => {
+          ? projectlist.slice(0, projectlist.length).map((item, index) => {
               return <ProjectItem id={index} item={item} />;
             })
           : projectlist.slice(0, 10).map((item, index) => {

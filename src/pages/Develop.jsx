@@ -8,10 +8,10 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoJavascript } from "react-icons/io";
 import { MdEngineering } from "react-icons/md";
 import { FaGit } from "react-icons/fa";
-import img1 from "../assets/images/41308287040223.png";
-import img2 from "../assets/images/22310236695384.png";
-import img3 from "../assets/images/image (1).png";
-import img4 from "../assets/images/image (2).png";
+import img1 from "../assets/images/41308287040223.jpg";
+import img2 from "../assets/images/22310236695384.jpg";
+import img3 from "../assets/images/image (1).jpg";
+import img4 from "../assets/images/image (2).jpg";
 import "../styles/Develop.css";
 
 const Develop = () => {

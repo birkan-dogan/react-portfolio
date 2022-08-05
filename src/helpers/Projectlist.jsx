@@ -1,19 +1,28 @@
-import proj1 from "../assets/studied/movie-app.png";
-import proj2 from "../assets/studied/recipe-app.png";
-import proj3 from "../assets/studied/weather-app.png";
-import proj4 from "../assets/studied/randomuser.png";
-import proj5 from "../assets/studied/axios-router.png";
-import proj6 from "../assets/studied/breakingbad.png";
-import proj7 from "../assets/studied/ios.png";
-import proj8 from "../assets/studied/toDoList.png";
-import proj9 from "../assets/studied/fire-contact.png";
-import proj10 from "../assets/studied/tutorial.png";
-import proj11 from "../assets/studied/guess.png";
-import proj12 from "../assets/studied/bootstrap.png";
-import proj13 from "../assets/studied/netflix.png";
-import proj14 from "../assets/studied/colorFlipper.png";
-import proj15 from "../assets/studied/slideContent.png";
+import proj1 from "../assets/studied/movie-app.jpg";
+import proj2 from "../assets/studied/recipe-app.jpg";
+import proj3 from "../assets/studied/weather-app.jpg";
+import proj4 from "../assets/studied/randomuser.jpg";
+import proj5 from "../assets/studied/axios-router.jpg";
+import proj6 from "../assets/studied/breakingbad.jpg";
+import proj7 from "../assets/studied/ios.jpg";
+import proj8 from "../assets/studied/toDoList.jpg";
+import proj9 from "../assets/studied/fire-contact.jpg";
+import proj10 from "../assets/studied/tutorial.jpg";
+import proj11 from "../assets/studied/guess.jpg";
+import proj12 from "../assets/studied/bootstrap.jpg";
+import proj13 from "../assets/studied/netflix.jpg";
+import proj14 from "../assets/studied/colorFlipper.jpg";
+import proj15 from "../assets/studied/slideContent.jpg";
+import proj16 from "../assets/studied/fireblog.jpg";
 export const projectlist = [
+  {
+    name: "Fire-Blog App",
+    image: proj16,
+    skills:
+      "React, JavaScript, HTML, CSS, Bootstrap, Firebase-auth, Firebase-Realtime-database",
+    github: "https://github.com/birkan-dogan/fire-blog",
+    live: "https://fire-blog-gamma.vercel.app/",
+  },
   {
     name: "Movie App",
     image: proj1,

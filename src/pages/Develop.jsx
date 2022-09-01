@@ -7,11 +7,14 @@ import "react-vertical-timeline-component/style.min.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoJavascript } from "react-icons/io";
 import { MdEngineering } from "react-icons/md";
-import { FaGit } from "react-icons/fa";
+import { FaGit, FaReact } from "react-icons/fa";
+import { MdOutlineWeb } from "react-icons/md";
 import img1 from "../assets/images/41308287040223.jpg";
 import img2 from "../assets/images/22310236695384.jpg";
 import img3 from "../assets/images/image (1).jpg";
 import img4 from "../assets/images/image (2).jpg";
+import img5 from "../assets/images/front-end.jpg";
+import img6 from "../assets/images/react.jpg";
 import "../styles/Develop.css";
 
 const Develop = () => {
@@ -20,11 +23,19 @@ const Develop = () => {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="HTML & CSS"
+          date="Front-end Development"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<AiFillHtml5 />}
+          icon={<MdOutlineWeb />}
         >
-          <img src={img1} alt="" />
+          <img src={img5} alt="" />
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="React"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<FaReact />}
+        >
+          <img src={img6} alt="" />
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -33,6 +44,14 @@ const Develop = () => {
           icon={<IoLogoJavascript />}
         >
           <img src={img2} alt="" />
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="HTML & CSS"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<AiFillHtml5 />}
+        >
+          <img src={img1} alt="" />
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

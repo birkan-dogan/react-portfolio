@@ -14,7 +14,15 @@ import proj13 from "../assets/studied/netflix.jpg";
 import proj14 from "../assets/studied/colorFlipper.jpg";
 import proj15 from "../assets/studied/slideContent.jpg";
 import proj16 from "../assets/studied/fireblog.jpg";
+import proj17 from "../assets/studied/django-todo.jpg";
 export const projectlist = [
+  {
+    name: "Django-Todo",
+    image: proj17,
+    skills: "Django, DTL, HTML, CSS, Bootstrap",
+    github: "https://github.com/birkan-dogan/django-todo",
+    live: "https://github.com/birkan-dogan/django-todo",
+  },
   {
     name: "Fire-Blog App",
     image: proj16,
